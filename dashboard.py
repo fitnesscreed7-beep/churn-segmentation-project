@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Customer Churn & Segmentation Dashboard", layout="wide")
 
 # Load data
-rfm = pd.read_csv('data/processed/rfm_final.csv')
+rfm = pd.read_csv('Data/processed/rfm_final.csv')
 
 st.title("E-Commerce Retention Analytics")
 st.markdown("### RFM Segmentation & Churn Prediction Dashboard")
